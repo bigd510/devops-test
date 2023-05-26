@@ -1,0 +1,8 @@
+stages:
+  - test
+
+test_stage:
+  stage: test
+  image: docker:stable
+  script:
+    - echo "test from master branch"
