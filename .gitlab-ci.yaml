@@ -5,4 +5,4 @@ test_stage:
   stage: test
   image: docker:stable
   script:
-    - echo "test from MASTER branch"
+    - echo "test from Master branch"
